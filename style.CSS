@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+header{
+  height: 200px;
+  background-color: #808080;
+  background-image: url("image/main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+ text-align: center;
+}
+
+body{
+  background-color: #26D8D7FF;
+  margin: 7px;
+  padding: 7px;
+}
+
+.left{
+  background-color: #32CD32;
+  display: blog;
+  float: left;
+  width: 350px;
+  margin: 0 auto;
+  padding: 10px; 
+}
+
+img{
+   width: 300px;
+  margin: 10px;
+  padding: 1px;
+  border: 3px solid #000000;
+}
+
+nav a{
+  display: inline-block;
+  margin: 10px;
+  padding: 25px;
+  border-radius: 10px;
+  width: 200px;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+nav a:link {
+    background: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 1.0);
+}
+
+nav a:visited {
+    background: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 1.0);
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 1.0);
+}
+
+.right{
+  display: block;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  float: right;
+  width: 800px;
+}
+
+div.right img
+{
+  width: 700px;
+  height: 650px;
+}
+h1{
+  color: #F8060FFF;
+  text-transform: uppercase;
+}
+
+nav a.active{
+    background: rgba(255, 255, 255, 1.0);
+    color: rgba(0, 0, 0, 1.0);
+}
